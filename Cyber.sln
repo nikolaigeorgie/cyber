@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyber", "Cyber.csproj", "{5660D042-D311-450A-B1A2-E64FB4112092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyber.Editor", "Cyber.Editor.csproj", "{A705894C-DCE4-DFB8-8E54-ECD96735A5CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5660D042-D311-450A-B1A2-E64FB4112092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5660D042-D311-450A-B1A2-E64FB4112092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5660D042-D311-450A-B1A2-E64FB4112092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5660D042-D311-450A-B1A2-E64FB4112092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A705894C-DCE4-DFB8-8E54-ECD96735A5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A705894C-DCE4-DFB8-8E54-ECD96735A5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A705894C-DCE4-DFB8-8E54-ECD96735A5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A705894C-DCE4-DFB8-8E54-ECD96735A5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
