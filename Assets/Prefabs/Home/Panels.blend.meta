@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: db160aa20103aee42b6f2e43fa001f0a
+timeCreated: 1487363749
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Empty
+    100002: Empty_001
+    100004: Empty_002
+    100006: Empty_003
+    100008: Empty_004
+    100010: Empty_005
+    100012: Empty_006
+    100014: Empty_007
+    100016: Empty_008
+    100018: Empty_009
+    100020: Empty_010
+    100022: Empty_011
+    100024: Empty_012
+    100026: Empty_013
+    100028: //RootNode
+    100030: Plane
+    100032: Plane_001
+    100034: Plane_002
+    100036: Plane_003
+    100038: Plane_004
+    100040: Plane_005
+    100042: Plane_006
+    100044: Plane_007
+    100046: Plane_008
+    100048: Plane_009
+    100050: Plane_010
+    100052: Plane_011
+    100054: Plane_012
+    100056: Plane_013
+    100058: Plane_014
+    100060: TOP1
+    100062: TOP1_001
+    100064: TOP1_002
+    100066: TOP1_003
+    100068: TOP1_004
+    100070: TOP1_005
+    100072: TOP1_006
+    100074: TOP1_007
+    100076: TOP1_008
+    100078: TOP1_009
+    100080: TOP1_010
+    100082: TOP1_012
+    100084: TOP1_013
+    100086: TOP1_014
+    100088: W
+    100090: W_001
+    100092: W_002
+    100094: W_003
+    100096: W_004
+    100098: W_005
+    100100: W_006
+    100102: W_007
+    100104: W_008
+    100106: W_009
+    100108: W_010
+    100110: W_011
+    100112: W_012
+    100114: W_013
+    400000: Empty
+    400002: Empty_001
+    400004: Empty_002
+    400006: Empty_003
+    400008: Empty_004
+    400010: Empty_005
+    400012: Empty_006
+    400014: Empty_007
+    400016: Empty_008
+    400018: Empty_009
+    400020: Empty_010
+    400022: Empty_011
+    400024: Empty_012
+    400026: Empty_013
+    400028: //RootNode
+    400030: Plane
+    400032: Plane_001
+    400034: Plane_002
+    400036: Plane_003
+    400038: Plane_004
+    400040: Plane_005
+    400042: Plane_006
+    400044: Plane_007
+    400046: Plane_008
+    400048: Plane_009
+    400050: Plane_010
+    400052: Plane_011
+    400054: Plane_012
+    400056: Plane_013
+    400058: Plane_014
+    400060: TOP1
+    400062: TOP1_001
+    400064: TOP1_002
+    400066: TOP1_003
+    400068: TOP1_004
+    400070: TOP1_005
+    400072: TOP1_006
+    400074: TOP1_007
+    400076: TOP1_008
+    400078: TOP1_009
+    400080: TOP1_010
+    400082: TOP1_012
+    400084: TOP1_013
+    400086: TOP1_014
+    400088: W
+    400090: W_001
+    400092: W_002
+    400094: W_003
+    400096: W_004
+    400098: W_005
+    400100: W_006
+    400102: W_007
+    400104: W_008
+    400106: W_009
+    400108: W_010
+    400110: W_011
+    400112: W_012
+    400114: W_013
+    2300000: Plane
+    2300002: Plane_001
+    2300004: Plane_002
+    2300006: Plane_003
+    2300008: Plane_004
+    2300010: Plane_005
+    2300012: Plane_006
+    2300014: Plane_007
+    2300016: Plane_008
+    2300018: Plane_009
+    2300020: Plane_010
+    2300022: Plane_011
+    2300024: Plane_012
+    2300026: Plane_013
+    2300028: Plane_014
+    2300030: TOP1
+    2300032: TOP1_001
+    2300034: TOP1_002
+    2300036: TOP1_003
+    2300038: TOP1_004
+    2300040: TOP1_005
+    2300042: TOP1_006
+    2300044: TOP1_007
+    2300046: TOP1_008
+    2300048: TOP1_009
+    2300050: TOP1_010
+    2300052: TOP1_012
+    2300054: TOP1_013
+    2300056: TOP1_014
+    2300058: W
+    2300060: W_001
+    2300062: W_002
+    2300064: W_003
+    2300066: W_004
+    2300068: W_005
+    2300070: W_006
+    2300072: W_007
+    2300074: W_008
+    2300076: W_009
+    2300078: W_010
+    2300080: W_011
+    2300082: W_012
+    2300084: W_013
+    3300000: Plane
+    3300002: Plane_001
+    3300004: Plane_002
+    3300006: Plane_003
+    3300008: Plane_004
+    3300010: Plane_005
+    3300012: Plane_006
+    3300014: Plane_007
+    3300016: Plane_008
+    3300018: Plane_009
+    3300020: Plane_010
+    3300022: Plane_011
+    3300024: Plane_012
+    3300026: Plane_013
+    3300028: Plane_014
+    3300030: TOP1
+    3300032: TOP1_001
+    3300034: TOP1_002
+    3300036: TOP1_003
+    3300038: TOP1_004
+    3300040: TOP1_005
+    3300042: TOP1_006
+    3300044: TOP1_007
+    3300046: TOP1_008
+    3300048: TOP1_009
+    3300050: TOP1_010
+    3300052: TOP1_012
+    3300054: TOP1_013
+    3300056: TOP1_014
+    3300058: W
+    3300060: W_001
+    3300062: W_002
+    3300064: W_003
+    3300066: W_004
+    3300068: W_005
+    3300070: W_006
+    3300072: W_007
+    3300074: W_008
+    3300076: W_009
+    3300078: W_010
+    3300080: W_011
+    3300082: W_012
+    3300084: W_013
+    4300000: Plane_001
+    4300002: W
+    4300004: TOP1
+    4300006: Plane
+    4300008: TOP1_001
+    4300010: Plane_002
+    4300012: W_001
+    4300014: TOP1_002
+    4300016: Plane_003
+    4300018: W_002
+    4300020: TOP1_003
+    4300022: Plane_004
+    4300024: W_003
+    4300026: TOP1_004
+    4300028: Plane_005
+    4300030: W_004
+    4300032: TOP1_005
+    4300034: Plane_006
+    4300036: W_005
+    4300038: TOP1_006
+    4300040: Plane_007
+    4300042: W_006
+    4300044: TOP1_007
+    4300046: Plane_008
+    4300048: W_007
+    4300050: TOP1_008
+    4300052: Plane_009
+    4300054: W_008
+    4300056: TOP1_009
+    4300058: Plane_014
+    4300060: W_009
+    4300062: TOP1_010
+    4300064: Plane_013
+    4300066: W_010
+    4300068: TOP1_012
+    4300070: Plane_010
+    4300072: W_011
+    4300074: TOP1_013
+    4300076: Plane_011
+    4300078: W_012
+    4300080: TOP1_014
+    4300082: Plane_012
+    4300084: W_013
+    7400000: Default Take
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 199
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Empty
+        weight: 1
+      - path: Empty/TOP1
+        weight: 1
+      - path: Empty/TOP1/Plane
+        weight: 1
+      - path: Empty/W
+        weight: 1
+      - path: Empty_001
+        weight: 1
+      - path: Empty_001/TOP1_001
+        weight: 1
+      - path: Empty_001/TOP1_001/Plane_002
+        weight: 1
+      - path: Empty_001/W_001
+        weight: 1
+      - path: Empty_002
+        weight: 1
+      - path: Empty_002/TOP1_002
+        weight: 1
+      - path: Empty_002/TOP1_002/Plane_003
+        weight: 1
+      - path: Empty_002/W_002
+        weight: 1
+      - path: Empty_003
+        weight: 1
+      - path: Empty_003/TOP1_003
+        weight: 1
+      - path: Empty_003/TOP1_003/Plane_004
+        weight: 1
+      - path: Empty_003/W_003
+        weight: 1
+      - path: Empty_004
+        weight: 1
+      - path: Empty_004/TOP1_004
+        weight: 1
+      - path: Empty_004/TOP1_004/Plane_005
+        weight: 1
+      - path: Empty_004/W_004
+        weight: 1
+      - path: Empty_005
+        weight: 1
+      - path: Empty_005/TOP1_005
+        weight: 1
+      - path: Empty_005/TOP1_005/Plane_006
+        weight: 1
+      - path: Empty_005/W_005
+        weight: 1
+      - path: Empty_006
+        weight: 1
+      - path: Empty_006/TOP1_006
+        weight: 1
+      - path: Empty_006/TOP1_006/Plane_007
+        weight: 1
+      - path: Empty_006/W_006
+        weight: 1
+      - path: Empty_007
+        weight: 1
+      - path: Empty_007/TOP1_007
+        weight: 1
+      - path: Empty_007/TOP1_007/Plane_008
+        weight: 1
+      - path: Empty_007/W_007
+        weight: 1
+      - path: Empty_008
+        weight: 1
+      - path: Empty_008/TOP1_008
+        weight: 1
+      - path: Empty_008/TOP1_008/Plane_009
+        weight: 1
+      - path: Empty_008/W_008
+        weight: 1
+      - path: Empty_009
+        weight: 1
+      - path: Empty_009/TOP1_009
+        weight: 1
+      - path: Empty_009/TOP1_009/Plane_014
+        weight: 1
+      - path: Empty_009/W_009
+        weight: 1
+      - path: Empty_010
+        weight: 1
+      - path: Empty_010/TOP1_010
+        weight: 1
+      - path: Empty_010/TOP1_010/Plane_013
+        weight: 1
+      - path: Empty_010/W_010
+        weight: 1
+      - path: Empty_011
+        weight: 1
+      - path: Empty_011/TOP1_012
+        weight: 1
+      - path: Empty_011/TOP1_012/Plane_010
+        weight: 1
+      - path: Empty_011/W_011
+        weight: 1
+      - path: Empty_012
+        weight: 1
+      - path: Empty_012/TOP1_013
+        weight: 1
+      - path: Empty_012/TOP1_013/Plane_011
+        weight: 1
+      - path: Empty_012/W_012
+        weight: 1
+      - path: Empty_013
+        weight: 1
+      - path: Empty_013/TOP1_014
+        weight: 1
+      - path: Empty_013/TOP1_014/Plane_012
+        weight: 1
+      - path: Empty_013/W_013
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

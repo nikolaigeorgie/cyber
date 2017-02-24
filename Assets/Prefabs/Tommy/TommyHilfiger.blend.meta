@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 08007d804bf20064dae905af58b759ed
+timeCreated: 1485463071
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Empty
+    100002: explosive_001
+    100004: Material__35_002
+    100006: Material__35_003
+    100008: Material__35_016
+    100010: Material__35_017
+    100012: Material__35_018
+    100014: Material__35_019
+    100016: model_mesh
+    100018: model_mesh_MeshPart0
+    100020: model_mesh_MeshPart1
+    100022: moonrocks
+    100024: NurbsPath
+    100026: swing
+    100028: Tiles
+    100030: tommyart-11
+    100032: tommyart-12
+    100034: tommyart-13
+    100036: tommyart-3
+    100038: tommyart-4
+    100040: tommyart-5
+    100042: tommyart-7
+    100044: tommyart-8
+    100046: tommyart-9
+    100048: //RootNode
+    100050: vhs_001
+    100052: Walls_001
+    400000: Empty
+    400002: explosive_001
+    400004: Material__35_002
+    400006: Material__35_003
+    400008: Material__35_016
+    400010: Material__35_017
+    400012: Material__35_018
+    400014: Material__35_019
+    400016: model_mesh
+    400018: model_mesh_MeshPart0
+    400020: model_mesh_MeshPart1
+    400022: moonrocks
+    400024: NurbsPath
+    400026: swing
+    400028: Tiles
+    400030: tommyart-11
+    400032: tommyart-12
+    400034: tommyart-13
+    400036: tommyart-3
+    400038: tommyart-4
+    400040: tommyart-5
+    400042: tommyart-7
+    400044: tommyart-8
+    400046: tommyart-9
+    400048: //RootNode
+    400050: vhs_001
+    400052: Walls_001
+    2300000: explosive_001
+    2300002: Material__35_002
+    2300004: Material__35_003
+    2300006: Material__35_016
+    2300008: Material__35_017
+    2300010: Material__35_018
+    2300012: Material__35_019
+    2300014: model_mesh_MeshPart0
+    2300016: model_mesh_MeshPart1
+    2300018: moonrocks
+    2300020: NurbsPath
+    2300022: swing
+    2300024: Tiles
+    2300026: tommyart-11
+    2300028: tommyart-12
+    2300030: tommyart-13
+    2300032: tommyart-3
+    2300034: tommyart-4
+    2300036: tommyart-5
+    2300038: tommyart-7
+    2300040: tommyart-8
+    2300042: tommyart-9
+    2300044: vhs_001
+    2300046: Walls_001
+    3300000: explosive_001
+    3300002: Material__35_002
+    3300004: Material__35_003
+    3300006: Material__35_016
+    3300008: Material__35_017
+    3300010: Material__35_018
+    3300012: Material__35_019
+    3300014: model_mesh_MeshPart0
+    3300016: model_mesh_MeshPart1
+    3300018: moonrocks
+    3300020: NurbsPath
+    3300022: swing
+    3300024: Tiles
+    3300026: tommyart-11
+    3300028: tommyart-12
+    3300030: tommyart-13
+    3300032: tommyart-3
+    3300034: tommyart-4
+    3300036: tommyart-5
+    3300038: tommyart-7
+    3300040: tommyart-8
+    3300042: tommyart-9
+    3300044: vhs_001
+    3300046: Walls_001
+    4300000: swing
+    4300002: moonrocks
+    4300004: vhs_001
+    4300006: NurbsPath
+    4300008: explosive_001
+    4300010: tommyart-11
+    4300012: tommyart-12
+    4300014: tommyart-13
+    4300016: tommyart-9
+    4300018: tommyart-8
+    4300020: tommyart-7
+    4300022: tommyart-5
+    4300024: tommyart-4
+    4300026: tommyart-3
+    4300028: Tiles
+    4300030: Walls_001
+    4300032: Material__35_002
+    4300034: Material__35_003
+    4300036: Material__35_016
+    4300038: Material__35_017
+    4300040: Material__35_018
+    4300042: Material__35_019
+    4300044: model_mesh_MeshPart0
+    4300046: model_mesh_MeshPart1
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

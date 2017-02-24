@@ -10,7 +10,6 @@ using Valve.VR;
 [RequireComponent(typeof(Camera))]
 public class SteamVR_UpdatePoses : MonoBehaviour
 {
-#if !(UNITY_5_6)
 	void Awake()
 	{
 		var camera = GetComponent<Camera>();
@@ -20,7 +19,7 @@ public class SteamVR_UpdatePoses : MonoBehaviour
 		camera.cullingMask = 0;
 		camera.depth = -9999;
 	}
-#endif
+
 	void OnPreCull()
 	{
 		var compositor = OpenVR.Compositor;
@@ -28,8 +27,8 @@ public class SteamVR_UpdatePoses : MonoBehaviour
 		{
 			var render = SteamVR_Render.instance;
 			compositor.GetLastPoses(render.poses, render.gamePoses);
-			SteamVR_Events.NewPoses.Send(render.poses);
-			SteamVR_Events.NewPosesApplied.Send();
+			SteamVR_Utils.Event.Send("new_poses", render.poses);
+			SteamVR_Utils.Event.Send("new_poses_applied");
 		}
 	}
 }

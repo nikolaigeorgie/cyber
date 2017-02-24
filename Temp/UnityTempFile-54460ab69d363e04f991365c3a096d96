@@ -1,0 +1,430 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
+-r:Assets/EZReplayManager/extension/scripts/EZReplayManagerDemo.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_1
+-define:UNITY_5_5
+-define:UNITY_5
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VIDEO
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:VRTK_SDK_STEAMVR
+Assets/EZReplayManager/example1/scripts/Cam.cs
+Assets/EZReplayManager/example1/scripts/DrawLines.cs
+Assets/EZReplayManager/example1/scripts/Game.cs
+Assets/EZReplayManager/example1/scripts/Heli2Record.cs
+Assets/EZReplayManager/example1/scripts/HeliMovement.cs
+"Assets/EZReplayManager/example2/Gem Shader/Example/GemSpawner.cs"
+Assets/EZReplayManager/example2/MouseLook.cs
+Assets/EZReplayManager/example2/scripts/BaseMouseLook.cs
+Assets/EZReplayManager/example2/scripts/ChangeCam.cs
+Assets/EZReplayManager/example2/scripts/DummyAI.cs
+Assets/EZReplayManager/example2/scripts/Monitor.cs
+Assets/EZReplayManager/example2/scripts/MouseOrbitZoom.cs
+Assets/EZReplayManager/example2/scripts/Player.cs
+Assets/EZReplayManager/example2/scripts/Projectile.cs
+Assets/EZReplayManager/extension/external/CLZF2.cs
+Assets/EZReplayManager/general/Object2Record.cs
+"Assets/Packages/HTC.UnityPlugin/StereoRendering/Examples/3. PortalDoor/Scripts/PortalEntry.cs"
+"Assets/Packages/HTC.UnityPlugin/StereoRendering/Examples/4. Callbacks/Scripts/IlluminationController.cs"
+"Assets/Packages/HTC.UnityPlugin/StereoRendering/Examples/6. RuntimeCreation/Scripts/CreateStereoRenderer.cs"
+Assets/Packages/HTC.UnityPlugin/StereoRendering/Examples/Common/Scripts/FollowHmd.cs
+Assets/Packages/HTC.UnityPlugin/StereoRendering/Scripts/DeviceParamFactory/IDeviceParamFactory.cs
+Assets/Packages/HTC.UnityPlugin/StereoRendering/Scripts/DeviceParamFactory/SteamVRParamFactory.cs
+Assets/Packages/HTC.UnityPlugin/StereoRendering/Scripts/DeviceType.cs
+Assets/Packages/HTC.UnityPlugin/StereoRendering/Scripts/StereoRenderManager.cs
+Assets/Packages/HTC.UnityPlugin/StereoRendering/Scripts/StereoRenderer.cs
+Assets/Packages/SteamVR/Extras/SteamVR_GazeTracker.cs
+Assets/Packages/SteamVR/Extras/SteamVR_LaserPointer.cs
+Assets/Packages/SteamVR/Extras/SteamVR_Teleporter.cs
+Assets/Packages/SteamVR/Extras/SteamVR_TestThrow.cs
+Assets/Packages/SteamVR/Extras/SteamVR_TestTrackedCamera.cs
+Assets/Packages/SteamVR/Extras/SteamVR_TrackedController.cs
+Assets/Packages/SteamVR/Plugins/openvr_api.cs
+Assets/Packages/SteamVR/Scripts/SteamVR.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_Camera.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_CameraFlip.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_CameraMask.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_Controller.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_ControllerManager.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_Ears.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_ExternalCamera.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_Fade.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_Frustum.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_GameView.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_IK.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_LoadLevel.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_Menu.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_Overlay.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_PlayArea.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_Render.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_RenderModel.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_Skybox.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_SphericalProjection.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_Stats.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_Status.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_StatusText.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_TestController.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_TrackedCamera.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_TrackedObject.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_UpdatePoses.cs
+Assets/Packages/SteamVR/Scripts/SteamVR_Utils.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Archery/Arrow.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Archery/ArrowNotch.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Archery/ArrowSpawner.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Archery/BowAim.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Archery/BowAnimation.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Archery/BowHandle.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Archery/Follow.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/AutoRotation.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Breakable_Cube.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/ButtonReactor.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/ControlReactor.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Controller_Hand.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Controller_Menu.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/ExcludeTeleport.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/FireExtinguisher_Base.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/FireExtinguisher_Sprayer.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Gun.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Lamp.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/LightSaber.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Menu_Color_Changer.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Menu_Container_Object_Colors.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Menu_Object_Spawner.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/ModelVillage_TeleportLocation.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Openable_Door.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/PanelMenu/PanelMenuDemoFlyingSaucer.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/PanelMenu/PanelMenuDemoSphere.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/PanelMenu/PanelMenuUIGrid.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/PanelMenu/PanelMenuUISlider.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/RC_Car.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/RC_Car_Controller.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/RealGun.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/RealGun_SafetySwitch.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/RealGun_Slide.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Remote_Beam.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Remote_Beam_Controller.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/RendererOffOnDash.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/SceneChanger.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/SnapDropZoneGroup_Switcher.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Sphere_Spawner.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Sword.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/UI_Interactions.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/UI_Keyboard.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/UseRotate.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/VRTK_ControllerAppearance_Example.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/VRTK_ControllerEvents_ListenerExample.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/VRTK_ControllerInteract_ListenerExample.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/VRTK_ControllerPointerEvents_ListenerExample.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/VRTK_ControllerUIPointerEvents_ListenerExample.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/VRTK_RoomExtender_ControllerExample.cs
+Assets/Packages/VRTK/Examples/Resources/Scripts/Whirlygig.cs
+Assets/Packages/VRTK/Prefabs/Resources/Scripts/VRTK_ConsoleViewer.cs
+Assets/Packages/VRTK/Prefabs/Resources/Scripts/VRTK_ControllerRigidbodyActivator.cs
+Assets/Packages/VRTK/Prefabs/Resources/Scripts/VRTK_ControllerTooltips.cs
+Assets/Packages/VRTK/Prefabs/Resources/Scripts/VRTK_FramesPerSecondViewer.cs
+Assets/Packages/VRTK/Prefabs/Resources/Scripts/VRTK_ObjectTooltip.cs
+Assets/Packages/VRTK/Prefabs/Resources/Scripts/VRTK_SnapDropZone.cs
+Assets/Packages/VRTK/SDK/Base/SDK_BaseBoundaries.cs
+Assets/Packages/VRTK/SDK/Base/SDK_BaseController.cs
+Assets/Packages/VRTK/SDK/Base/SDK_BaseHeadset.cs
+Assets/Packages/VRTK/SDK/Base/SDK_BaseSystem.cs
+Assets/Packages/VRTK/SDK/Fallback/SDK_FallbackBoundaries.cs
+Assets/Packages/VRTK/SDK/Fallback/SDK_FallbackController.cs
+Assets/Packages/VRTK/SDK/Fallback/SDK_FallbackHeadset.cs
+Assets/Packages/VRTK/SDK/Fallback/SDK_FallbackSystem.cs
+Assets/Packages/VRTK/SDK/OculusVR/SDK_OculusVRBoundaries.cs
+Assets/Packages/VRTK/SDK/OculusVR/SDK_OculusVRController.cs
+Assets/Packages/VRTK/SDK/OculusVR/SDK_OculusVRHeadset.cs
+Assets/Packages/VRTK/SDK/OculusVR/SDK_OculusVRSystem.cs
+Assets/Packages/VRTK/SDK/Simulator/SDK_ControllerSim.cs
+Assets/Packages/VRTK/SDK/Simulator/SDK_InputSimulator.cs
+Assets/Packages/VRTK/SDK/Simulator/SDK_SimBoundaries.cs
+Assets/Packages/VRTK/SDK/Simulator/SDK_SimController.cs
+Assets/Packages/VRTK/SDK/Simulator/SDK_SimHeadset.cs
+Assets/Packages/VRTK/SDK/Simulator/SDK_SimSystem.cs
+Assets/Packages/VRTK/SDK/SteamVR/SDK_SteamVRBoundaries.cs
+Assets/Packages/VRTK/SDK/SteamVR/SDK_SteamVRController.cs
+Assets/Packages/VRTK/SDK/SteamVR/SDK_SteamVRHeadset.cs
+Assets/Packages/VRTK/SDK/SteamVR/SDK_SteamVRSystem.cs
+Assets/Packages/VRTK/SDK/VRTK_SDK_Bridge.cs
+Assets/Packages/VRTK/Scripts/Controls/2D/PanelMenu/PanelMenuController.cs
+Assets/Packages/VRTK/Scripts/Controls/2D/PanelMenu/PanelMenuItemController.cs
+Assets/Packages/VRTK/Scripts/Controls/2D/RadialMenu/RadialButtonIcon.cs
+Assets/Packages/VRTK/Scripts/Controls/2D/RadialMenu/RadialMenu.cs
+Assets/Packages/VRTK/Scripts/Controls/2D/RadialMenu/UICircle.cs
+Assets/Packages/VRTK/Scripts/Controls/2D/RadialMenu/VRTK_IndependentRadialMenuController.cs
+Assets/Packages/VRTK/Scripts/Controls/2D/RadialMenuController.cs
+Assets/Packages/VRTK/Scripts/Controls/3D/Utilities/VRTK_ContentHandler.cs
+Assets/Packages/VRTK/Scripts/Controls/3D/VRTK_Button.cs
+Assets/Packages/VRTK/Scripts/Controls/3D/VRTK_Chest.cs
+Assets/Packages/VRTK/Scripts/Controls/3D/VRTK_Control.cs
+Assets/Packages/VRTK/Scripts/Controls/3D/VRTK_Door.cs
+Assets/Packages/VRTK/Scripts/Controls/3D/VRTK_Drawer.cs
+Assets/Packages/VRTK/Scripts/Controls/3D/VRTK_Knob.cs
+Assets/Packages/VRTK/Scripts/Controls/3D/VRTK_Lever.cs
+Assets/Packages/VRTK/Scripts/Controls/3D/VRTK_Slider.cs
+Assets/Packages/VRTK/Scripts/Controls/3D/VRTK_SpringLever.cs
+Assets/Packages/VRTK/Scripts/Interactions/GrabAttachMechanics/VRTK_BaseGrabAttach.cs
+Assets/Packages/VRTK/Scripts/Interactions/GrabAttachMechanics/VRTK_BaseJointGrabAttach.cs
+Assets/Packages/VRTK/Scripts/Interactions/GrabAttachMechanics/VRTK_ChildOfControllerGrabAttach.cs
+Assets/Packages/VRTK/Scripts/Interactions/GrabAttachMechanics/VRTK_ClimbableGrabAttach.cs
+Assets/Packages/VRTK/Scripts/Interactions/GrabAttachMechanics/VRTK_CustomJointGrabAttach.cs
+Assets/Packages/VRTK/Scripts/Interactions/GrabAttachMechanics/VRTK_FixedJointGrabAttach.cs
+Assets/Packages/VRTK/Scripts/Interactions/GrabAttachMechanics/VRTK_RotatorTrackGrabAttach.cs
+Assets/Packages/VRTK/Scripts/Interactions/GrabAttachMechanics/VRTK_SpringJointGrabAttach.cs
+Assets/Packages/VRTK/Scripts/Interactions/GrabAttachMechanics/VRTK_TrackObjectGrabAttach.cs
+Assets/Packages/VRTK/Scripts/Interactions/Highlighters/VRTK_BaseHighlighter.cs
+Assets/Packages/VRTK/Scripts/Interactions/Highlighters/VRTK_MaterialColorSwapHighlighter.cs
+Assets/Packages/VRTK/Scripts/Interactions/Highlighters/VRTK_OutlineObjectCopyHighlighter.cs
+Assets/Packages/VRTK/Scripts/Interactions/SecondaryControllerGrabActions/VRTK_AxisScaleGrabAction.cs
+Assets/Packages/VRTK/Scripts/Interactions/SecondaryControllerGrabActions/VRTK_BaseGrabAction.cs
+Assets/Packages/VRTK/Scripts/Interactions/SecondaryControllerGrabActions/VRTK_ControlDirectionGrabAction.cs
+Assets/Packages/VRTK/Scripts/Interactions/SecondaryControllerGrabActions/VRTK_SwapControllerGrabAction.cs
+Assets/Packages/VRTK/Scripts/Interactions/VRTK_ControllerActions.cs
+Assets/Packages/VRTK/Scripts/Interactions/VRTK_ControllerEvents.cs
+Assets/Packages/VRTK/Scripts/Interactions/VRTK_InteractControllerAppearance.cs
+Assets/Packages/VRTK/Scripts/Interactions/VRTK_InteractGrab.cs
+Assets/Packages/VRTK/Scripts/Interactions/VRTK_InteractHaptics.cs
+Assets/Packages/VRTK/Scripts/Interactions/VRTK_InteractTouch.cs
+Assets/Packages/VRTK/Scripts/Interactions/VRTK_InteractUse.cs
+Assets/Packages/VRTK/Scripts/Interactions/VRTK_InteractableObject.cs
+Assets/Packages/VRTK/Scripts/Interactions/VRTK_ObjectAutoGrab.cs
+Assets/Packages/VRTK/Scripts/Internal/VRTK_ControllerTracker.cs
+Assets/Packages/VRTK/Scripts/Internal/VRTK_CurveGenerator.cs
+Assets/Packages/VRTK/Scripts/Internal/VRTK_EventSystemVRInput.cs
+Assets/Packages/VRTK/Scripts/Internal/VRTK_ObjectCache.cs
+Assets/Packages/VRTK/Scripts/Internal/VRTK_PlayerObject.cs
+Assets/Packages/VRTK/Scripts/Internal/VRTK_RoomExtender_PlayAreaGizmo.cs
+Assets/Packages/VRTK/Scripts/Internal/VRTK_ScreenFade.cs
+Assets/Packages/VRTK/Scripts/Internal/VRTK_TrackedController.cs
+Assets/Packages/VRTK/Scripts/Internal/VRTK_UIGraphicRaycaster.cs
+Assets/Packages/VRTK/Scripts/Locomotion/VRTK_BasicTeleport.cs
+Assets/Packages/VRTK/Scripts/Locomotion/VRTK_DashTeleport.cs
+Assets/Packages/VRTK/Scripts/Locomotion/VRTK_HeightAdjustTeleport.cs
+Assets/Packages/VRTK/Scripts/Locomotion/VRTK_MoveInPlace.cs
+Assets/Packages/VRTK/Scripts/Locomotion/VRTK_PlayerClimb.cs
+Assets/Packages/VRTK/Scripts/Locomotion/VRTK_RoomExtender.cs
+Assets/Packages/VRTK/Scripts/Locomotion/VRTK_TeleportDisableOnControllerObscured.cs
+Assets/Packages/VRTK/Scripts/Locomotion/VRTK_TeleportDisableOnHeadsetCollision.cs
+Assets/Packages/VRTK/Scripts/Locomotion/VRTK_TouchpadWalking.cs
+Assets/Packages/VRTK/Scripts/Pointers/VRTK_BasePointer.cs
+Assets/Packages/VRTK/Scripts/Pointers/VRTK_BezierPointer.cs
+Assets/Packages/VRTK/Scripts/Pointers/VRTK_DestinationMarker.cs
+Assets/Packages/VRTK/Scripts/Pointers/VRTK_PlayAreaCursor.cs
+Assets/Packages/VRTK/Scripts/Pointers/VRTK_SimplePointer.cs
+Assets/Packages/VRTK/Scripts/Presence/VRTK_BodyPhysics.cs
+Assets/Packages/VRTK/Scripts/Presence/VRTK_HeadsetCollision.cs
+Assets/Packages/VRTK/Scripts/Presence/VRTK_HeadsetCollisionFade.cs
+Assets/Packages/VRTK/Scripts/Presence/VRTK_HeadsetControllerAware.cs
+Assets/Packages/VRTK/Scripts/Presence/VRTK_HeadsetFade.cs
+Assets/Packages/VRTK/Scripts/Presence/VRTK_HipTracking.cs
+Assets/Packages/VRTK/Scripts/Presence/VRTK_PositionRewind.cs
+Assets/Packages/VRTK/Scripts/UI/VRTK_UICanvas.cs
+Assets/Packages/VRTK/Scripts/UI/VRTK_UIDraggableItem.cs
+Assets/Packages/VRTK/Scripts/UI/VRTK_UIDropZone.cs
+Assets/Packages/VRTK/Scripts/UI/VRTK_UIPointer.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_BasicTeleport_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_BodyPhysics_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_ControllerActions_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_ControllerEvents_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_DashTeleport_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_DestinationMarker_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_HeadsetCollision_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_HeadsetControllerAware_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_HeadsetFade_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_InteractGrab_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_InteractTouch_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_InteractUse_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_InteractableObject_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_PlayerClimb_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_SnapDropZone_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/UnityEvents/VRTK_UIPointer_UnityEvents.cs
+Assets/Packages/VRTK/Scripts/Utilities/VRTK_AdaptiveQuality.cs
+Assets/Packages/VRTK/Scripts/Utilities/VRTK_DeviceFinder.cs
+Assets/Packages/VRTK/Scripts/Utilities/VRTK_ObjectFollow.cs
+Assets/Packages/VRTK/Scripts/Utilities/VRTK_PolicyList.cs
+Assets/Packages/VRTK/Scripts/Utilities/VRTK_SDKManager.cs
+Assets/Packages/VRTK/Scripts/Utilities/VRTK_SharedMethods.cs
+Assets/Packages/VRTK/Scripts/Utilities/VRTK_Simulator.cs
+"Assets/Prefabs/Home/Weapon/EZ Effects/Demo/BallDisableRigidbody.cs"
+"Assets/Prefabs/Home/Weapon/EZ Effects/Demo/DemoScript.cs"
+"Assets/Prefabs/Home/Weapon/EZ Effects/Demo/DemoSpawner.cs"
+"Assets/Prefabs/Home/Weapon/EZ Effects/Scripts/ComplexLight.cs"
+"Assets/Prefabs/Home/Weapon/EZ Effects/Scripts/ComplexParticles.cs"
+"Assets/Prefabs/Home/Weapon/EZ Effects/Scripts/ComplexParticlesDisable.cs"
+"Assets/Prefabs/Home/Weapon/EZ Effects/Scripts/EffectImpact.cs"
+"Assets/Prefabs/Home/Weapon/EZ Effects/Scripts/EffectMuzzleFlash.cs"
+"Assets/Prefabs/Home/Weapon/EZ Effects/Scripts/EffectTracer.cs"
+"Assets/Prefabs/Home/Weapon/EZ Effects/Scripts/Utilities/Range.cs"
+"Assets/Prefabs/Home/Weapon/EZ Object Pools/Scripts/EZObjectPool.cs"
+"Assets/Prefabs/Home/Weapon/EZ Object Pools/Scripts/PooledObjects/ParticleSystemDisable.cs"
+"Assets/Prefabs/Home/Weapon/EZ Object Pools/Scripts/PooledObjects/PooledObject.cs"
+"Assets/Prefabs/Home/Weapon/EZ Object Pools/Scripts/PooledObjects/TimedDisable.cs"
+Assets/Scripts/Audio.cs
+Assets/Scripts/ButtonPressed.cs
+Assets/Scripts/DataInserter.cs
+Assets/Scripts/DataLoader.cs
+Assets/Scripts/FloatBall.cs
+Assets/Scripts/GunController.cs
+Assets/Scripts/MovieController.cs
+Assets/Scripts/Purchasing/Clothes/PastRed.cs
+Assets/Scripts/Purchasing/Clothes/PastTiger.cs
+Assets/Scripts/Purchasing/Clothes/PastYellow.cs
+Assets/Scripts/Purchasing/Clothes/Spray.cs
+Assets/Scripts/Purchasing/Shoes/BlackPurchase.cs
+Assets/Scripts/Purchasing/Shoes/BluePurchase.cs
+Assets/Scripts/Purchasing/Shoes/GreenPurchase.cs
+Assets/Scripts/Purchasing/Shoes/RedPurchase.cs
+Assets/Scripts/Travel.cs
+Assets/VRCapture/Demo/Scripts/MainMenuController.cs
+Assets/VRCapture/Demo/Scripts/RotationAround.cs
+Assets/VRCapture/Demo/Scripts/TooltipsManager.cs
+Assets/VRCapture/Demo/Scripts/UIControllerManager.cs
+Assets/VRCapture/Demo/Scripts/VRDemoUIPointer.cs
+Assets/VRCapture/Demo/Scripts/VRRayCameraManager.cs
+Assets/VRCapture/Demo/Scripts/VRTouchCameraManager.cs
+Assets/VRCapture/Demo/Scripts/VideoCaptureManager.cs
+Assets/VRCapture/Scripts/VRCapture.cs
+Assets/VRCapture/Scripts/VRCaptureAudio.cs
+Assets/VRCapture/Scripts/VRCaptureVideo.cs
+Assets/VRCapture/Scripts/VRConfig.cs
+Assets/VRCapture/Scripts/VRInteration/UI/VRRadialMenu.cs
+Assets/VRCapture/Scripts/VRInteration/UI/VRTooltip.cs
+Assets/VRCapture/Scripts/VRInteration/UI/VRTooltipController.cs
+Assets/VRCapture/Scripts/VRInteration/Utils/Module/VRInputModule.cs
+Assets/VRCapture/Scripts/VRInteration/Utils/Module/VRUIGraphicRaycaster.cs
+Assets/VRCapture/Scripts/VRInteration/Utils/Module/VRUIPointer.cs
+Assets/VRCapture/Scripts/VRInteration/Utils/VRChangCameraPoint.cs
+Assets/VRCapture/Scripts/VRInteration/Utils/VRDrawUICircle.cs
+Assets/VRCapture/Scripts/VRInteration/Utils/VREventController.cs
+Assets/VRCapture/Scripts/VRInteration/Utils/VRTeleport.cs
+Assets/VRCapture/Scripts/VRInteration/Utils/VRUIController.cs
+Assets/other/Earth/Scripts/EarthScript.cs
+Assets/other/Earth/Scripts/MoveScript.cs
+Assets/other/Earth/Scripts/SphereScript.cs
+Assets/other/LightningBolt/LightningBoltScript.cs
+Assets/other/LightningGenerator/ExampleScene/Rain/RainConrtoller.cs
+Assets/other/LightningGenerator/ExampleScene/Scripts/FPS.cs
+Assets/other/LightningGenerator/ExampleScene/Scripts/HandSpawn.cs
+Assets/other/LightningGenerator/ExampleScene/Scripts/LightingShaderPrev.cs
+Assets/other/LightningGenerator/ExampleScene/Scripts/MouseLookSM.cs
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
+"Assets/other/LightningGenerator/ExampleScene/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs"
+Assets/other/LightningGenerator/Scripts/LightGenerator.cs
+Assets/other/LightningGenerator/Scripts/LightingBox.cs
+Assets/other/LightningGenerator/Scripts/LightningRod.cs
+Assets/other/LightningGenerator/Scripts/SoundTimeControll.cs
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

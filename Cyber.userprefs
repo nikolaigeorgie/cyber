@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="Cyber.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Purchasing\Shoes\BluePurchase.cs">
+    <Files>
+      <File FileName="Assets\Scripts\DataInserter.cs" Line="31" Column="1" />
+      <File FileName="Assets\Scripts\Purchasing\Shoes\BluePurchase.cs" Line="15" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
