@@ -1,10 +1,13 @@
 ﻿<Properties StartupItem="Cyber.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Purchasing\FirebaseUploader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Purchasing\Checkout.cs">
     <Files>
-      <File FileName="Assets\Scripts\Purchasing\FirebaseUploader.cs" Line="19" Column="30" />
+      <File FileName="Assets\Scripts\Purchasing\FirebaseUploader.cs" Line="40" Column="3" />
+      <File FileName="Assets\Scripts\Purchasing\Checkout.cs" Line="35" Column="34" />
+      <File FileName="Assets\Scripts\Purchasing\Shoes\RedPurchase.cs" Line="78" Column="1" />
       <File FileName="Assets\Scripts\DataInserter.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Purchasing\Shoes\BluePurchase.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Purchasing\Shoes\BluePurchase.cs" Line="12" Column="26" />
+      <File FileName="Assets\VRTK\Examples\Resources\Scripts\Archery\Follow.cs" Line="22" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

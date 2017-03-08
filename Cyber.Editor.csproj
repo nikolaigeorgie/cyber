@@ -124,11 +124,11 @@
     <Reference Include="websocket-sharp">
       <HintPath>Assets\Plugins\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
-    <Reference Include="simple-firebase-unity-editor">
-      <HintPath>Assets\SimpleFirebaseUnity\Plugins\Editor\simple-firebase-unity-editor.dll</HintPath>
-    </Reference>
     <Reference Include="simple-firebase-csharp">
       <HintPath>Assets\SimpleFirebaseUnity\Plugins\simple-firebase-csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="simple-firebase-unity-editor">
+      <HintPath>Assets\SimpleFirebaseUnity\Plugins\Editor\simple-firebase-unity-editor.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-UnityScript">
       <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
@@ -151,14 +151,15 @@
     <Compile Include="Assets\Packages\SteamVR\Editor\SteamVR_Settings.cs" />
     <Compile Include="Assets\Packages\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
     <Compile Include="Assets\Packages\SteamVR\Editor\SteamVR_Update.cs" />
-    <Compile Include="Assets\Packages\VRTK\Editor\VRTK_AdaptiveQualityEditor.cs" />
-    <Compile Include="Assets\Packages\VRTK\Editor\VRTK_EditorUtilities.cs" />
-    <Compile Include="Assets\Packages\VRTK\Editor\VRTK_PolicyListEditor.cs" />
-    <Compile Include="Assets\Packages\VRTK\Editor\VRTK_SDKManagerEditor.cs" />
-    <Compile Include="Assets\Packages\VRTK\Scripts\Controls\2D\RadialMenu\Editor\RadialMenuInspector.cs" />
     <Compile Include="Assets\Prefabs\Home\Weapon\EZ Effects\Scripts\Editor\CreateImpactEffect.cs" />
     <Compile Include="Assets\Prefabs\Home\Weapon\EZ Effects\Scripts\Editor\CreateMuzzleEffect.cs" />
     <Compile Include="Assets\Prefabs\Home\Weapon\EZ Effects\Scripts\Editor\CreateTracerEffect.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_AdaptiveQualityEditor.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_EditorUtilities.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_ObjectSetup.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_PolicyListEditor.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_SDKManagerEditor.cs" />
+    <Compile Include="Assets\VRTK\Scripts\Controls\2D\RadialMenu\Editor\RadialMenuInspector.cs" />
     <Compile Include="Assets\other\LightningBolt\Editor\LightningBoltEditor.cs" />
     <Compile Include="Assets\other\LightningGenerator\ExampleScene\Standard Assets\Editor\ImageEffects\BloomEditor.cs" />
   </ItemGroup>
@@ -173,16 +174,16 @@
     <None Include="Assets\Packages\SteamVR\Resources\SteamVR_Fade.shader" />
     <None Include="Assets\Packages\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
     <None Include="Assets\Packages\SteamVR\readme.txt" />
-    <None Include="Assets\Packages\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
-    <None Include="Assets\Packages\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
-    <None Include="Assets\Packages\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
-    <None Include="Assets\Packages\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
-    <None Include="Assets\Packages\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
-    <None Include="Assets\Packages\VRTK\Version.txt" />
     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
     <None Include="Assets\Plugins\release_history.txt" />
     <None Include="Assets\SimpleFirebaseUnity\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\SimpleFirebaseUnity\Plugins\simple-firebase-csharp.xml" />
+    <None Include="Assets\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
+    <None Include="Assets\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
+    <None Include="Assets\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
+    <None Include="Assets\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
+    <None Include="Assets\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
+    <None Include="Assets\VRTK\Version.txt" />
     <None Include="Assets\other\Earth\Materials\EarthShader.shader" />
     <None Include="Assets\other\Earth\Readme.txt" />
     <None Include="Assets\other\LightningBolt\Readme.txt" />
