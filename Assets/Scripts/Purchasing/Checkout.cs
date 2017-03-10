@@ -12,40 +12,40 @@ using System;
 using System.IO;
 
 public class Checkout : MonoBehaviour {
-
+	
 	System.Guid myGUID = System.Guid.NewGuid();
 
 	public static string rxsRedPurchased;
-
-	// Use this for initialization
-	void Start () {
-
-	}
-
-	// Update is called once per frame
-	void Update () {
-
-	}
+	public static string rxsBluePurchased;
+	public static string rxsGreenPurchased;
+	public static string rxsBlackPurchased;
 
 	public void checkedOUT(){
-
 		StartCoroutine (checkoutCompleted ());
-
 	}
 
-	string customerId = "124211234";
 
 	IEnumerator checkoutCompleted() {
 
 		rxsRedPurchased = RedPurchase.rxsRedShoeDetails;
+		rxsBlackPurchased = BlackPurchase.rxsBlackShoeDetails;
+		rxsGreenPurchased = GreenPurchase.rxsGreenShoeDetails;
+			rxsBluePurchased = BluePurchase.rxsBlueShoeDetails;
 
-		Firebase firebase = Firebase.CreateNew ("fir-test-884fd.firebaseio.com");
-
+//		Firebase firebase = Firebase.CreateNew ("fir-test-884fd.firebaseio.com");
+		Firebase firebase = Firebase.CreateNew ("cybershop-f4213.firebaseio.com");
+	
 		FirebaseQueue firebaseQueue = new FirebaseQueue();
 
 		//firebaseQueue.AddQueuePush(firebase.Child("order/customer", true), secondDetails + newDetails, true);
-		firebaseQueue.AddQueuePush(firebase.Child("customers/" + myGUID, true), rxsRedPurchased, true);
-		firebaseQueue.AddQueuePush(firebase.Child("customers/" + myGUID + "/Shoe", true), rxsRedPurchased, true);
+		firebaseQueue.AddQueuePush(firebase.Child("customers/" + myGUID, true), "{asdf}", true);
+		firebaseQueue.AddQueuePush(firebase.Child("customers/" + myGUID + "/RedShoe", true), rxsRedPurchased, true);
+		firebaseQueue.AddQueuePush(firebase.Child("customers/" + myGUID + "/BlueShoe", true), rxsBluePurchased, true);
+		firebaseQueue.AddQueuePush(firebase.Child("customers/" + myGUID + "/GreenShoe", true), rxsGreenPurchased, true);
+		firebaseQueue.AddQueuePush(firebase.Child("customers/" + myGUID + "/BlackShoe", true), rxsBlackPurchased, true);
+
+		print ("WORKS");
+
 
 		yield return new WaitForSeconds (15f);
 
@@ -53,5 +53,6 @@ public class Checkout : MonoBehaviour {
 
 
 	}
+
 
 }

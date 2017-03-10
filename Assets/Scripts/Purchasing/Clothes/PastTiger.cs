@@ -1,6 +1,28 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+
+using SimpleFirebaseUnity;
+using SimpleFirebaseUnity.MiniJSON;
+
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using System.IO;
+
+[System.Serializable]
+public class PastTigerClothes{
+
+	public int station;
+	public string productName;
+	public string color;
+	public int size;
+	public int quantity;
+	public int totalPrice;
+}
+
+
 
 public class PastTiger : MonoBehaviour {
 
