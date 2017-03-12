@@ -12,7 +12,11 @@ using System;
 using System.IO;
 
 public class Checkout : MonoBehaviour {
-	
+
+
+	public GameObject checkoutPrompt;
+	public GameObject finalPrompt;
+
 	System.Guid myGUID = System.Guid.NewGuid();
 
 	public static string rxsRedPurchased;
@@ -51,6 +55,8 @@ public class Checkout : MonoBehaviour {
 
 		yield return null;
 
+		checkoutPrompt.SetActive (false);
+		finalPrompt.SetActive(true);
 
 	}
 
