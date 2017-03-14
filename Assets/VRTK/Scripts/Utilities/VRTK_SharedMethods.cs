@@ -3,11 +3,14 @@ namespace VRTK
 {
     using UnityEngine;
     using System.Reflection;
+#if UNITY_EDITOR
+    using UnityEditor;
+#endif
 
     /// <summary>
     /// The Shared Methods script is a collection of reusable static methods that are used across a range of different scripts.
     /// </summary>
-    public class VRTK_SharedMethods : MonoBehaviour
+    public sealed class VRTK_SharedMethods : MonoBehaviour
     {
         /// <summary>
         /// The GetBounds methods returns the bounds of the transform including all children in world space.
@@ -129,7 +132,7 @@ namespace VRTK
         public static Component CloneComponent(Component source, GameObject destination, bool copyProperties = false)
         {
             Component tmpComponent = destination.gameObject.AddComponent(source.GetType());
-            if(copyProperties)
+            if (copyProperties)
             {
                 foreach (PropertyInfo p in source.GetType().GetProperties())
                 {
@@ -159,12 +162,68 @@ namespace VRTK
         }
 
         /// <summary>
+        /// The RoundFloat method is used to round a given float to the given decimal places.
+        /// </summary>
+        /// <param name="givenFloat">The float to round.</param>
+        /// <param name="decimalPlaces">The number of decimal places to round to.</param>
+        /// <param name="rawFidelity">If this is true then the decimal places must be given in the decimal multiplier, e.g. 10 for 1dp, 100 for 2dp, etc.</param>
+        /// <returns>The rounded float.</returns>
+        public static float RoundFloat(float givenFloat, int decimalPlaces, bool rawFidelity = false)
+        {
+            float roundBy = (rawFidelity ? decimalPlaces : Mathf.Pow(10.0f, decimalPlaces));
+            return Mathf.Round(givenFloat * roundBy) / roundBy;
+        }
+
+        /// <summary>
         /// The IsEditTime method determines if the state of Unity is in the Unity Editor and the scene is not in play mode.
         /// </summary>
         /// <returns>Returns true if Unity is in the Unity Editor and not in play mode.</returns>
         public static bool IsEditTime()
         {
-            return (Application.isEditor && !Application.isPlaying);
+#if UNITY_EDITOR
+            return !EditorApplication.isPlayingOrWillChangePlaymode;
+#else
+            return false;
+#endif
+        }
+
+        /// <summary>
+        /// The TriggerHapticPulse/1 method calls a single haptic pulse call on the controller for a single tick.
+        /// </summary>
+        /// <param name="strength">The intensity of the rumble of the controller motor. `0` to `1`.</param>
+        public static void TriggerHapticPulse(uint controllerIndex, float strength)
+        {
+            var instanceMethods = VRTK_InstanceMethods.instance;
+            if (instanceMethods != null)
+            {
+                instanceMethods.TriggerHapticPulse(controllerIndex, strength);
+            }
+        }
+
+        /// <summary>
+        /// The TriggerHapticPulse/3 method calls a haptic pulse for a specified amount of time rather than just a single tick. Each pulse can be separated by providing a `pulseInterval` to pause between each haptic pulse.
+        /// </summary>
+        /// <param name="strength">The intensity of the rumble of the controller motor. `0` to `1`.</param>
+        /// <param name="duration">The length of time the rumble should continue for.</param>
+        /// <param name="pulseInterval">The interval to wait between each haptic pulse.</param>
+        public static void TriggerHapticPulse(uint controllerIndex, float strength, float duration, float pulseInterval)
+        {
+            var instanceMethods = VRTK_InstanceMethods.instance;
+            if (instanceMethods != null)
+            {
+                instanceMethods.TriggerHapticPulse(controllerIndex, strength, duration, pulseInterval);
+            }
+        }
+
+        /// <summary>
+        /// The Mod method is used to find the remainder of the sum a/b.
+        /// </summary>
+        /// <param name="a">The dividend value.</param>
+        /// <param name="b">The divisor value.</param>
+        /// <returns>The remainder value.</returns>
+        public static float Mod(float a, float b)
+        {
+            return a - b * Mathf.Floor(a / b);
         }
 
         private static float ColorPercent(float value, float percent)

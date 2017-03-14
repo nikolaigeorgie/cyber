@@ -27,7 +27,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;VRTK_SDK_STEAMVR;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;VRTK_DEFINE_SDK_STEAMVR;VRTK_DEFINE_STEAMVR_PLUGIN_1_1_1_OR_OLDER</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -37,7 +37,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;VRTK_SDK_STEAMVR;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;VRTK_DEFINE_SDK_STEAMVR;VRTK_DEFINE_STEAMVR_PLUGIN_1_1_1_OR_OLDER</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
@@ -172,59 +172,59 @@
     <Compile Include="Assets\SimpleFirebaseUnity\Sample\AutoRotate.cs" />
     <Compile Include="Assets\SimpleFirebaseUnity\Sample\MoveControl.cs" />
     <Compile Include="Assets\SimpleFirebaseUnity\Sample\SampleScript.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Archery\Arrow.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Archery\ArrowNotch.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Archery\ArrowSpawner.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Archery\BowAim.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Archery\BowAnimation.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Archery\BowHandle.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Archery\Follow.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\AutoRotation.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Breakable_Cube.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\ButtonReactor.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\ControlReactor.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Controller_Hand.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Controller_Menu.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\ExcludeTeleport.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\FireExtinguisher_Base.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\FireExtinguisher_Sprayer.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Gun.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\HandLift.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Lamp.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\LightSaber.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Menu_Color_Changer.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Menu_Container_Object_Colors.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Menu_Object_Spawner.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\ModelVillage_TeleportLocation.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\MoveBlock.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Openable_Door.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\PanelMenu\PanelMenuDemoFlyingSaucer.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\PanelMenu\PanelMenuDemoSphere.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\PanelMenu\PanelMenuUIGrid.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\PanelMenu\PanelMenuUISlider.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\RC_Car.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\RC_Car_Controller.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\RealGun.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\RealGun_SafetySwitch.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\RealGun_Slide.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Remote_Beam.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Remote_Beam_Controller.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\RendererOffOnDash.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\SceneChanger.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\SnapDropZoneGroup_Switcher.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Sphere_Spawner.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Sword.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\UI_Interactions.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\UI_Keyboard.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\UseRotate.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\VRTK_ControllerAppearance_Example.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\VRTK_ControllerEvents_ListenerExample.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\VRTK_ControllerInteract_ListenerExample.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\VRTK_ControllerPointerEvents_ListenerExample.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\VRTK_ControllerUIPointerEvents_ListenerExample.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\VRTK_RoomExtender_ControllerExample.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Whirlygig.cs" />
-    <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Zipline.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\Arrow.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\ArrowNotch.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\ArrowSpawner.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\BowAim.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\BowAnimation.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\BowHandle.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\Follow.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\AutoRotation.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Breakable_Cube.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\ButtonReactor.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\ControlReactor.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Controller_Hand.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Controller_Menu.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\ExcludeTeleport.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\FireExtinguisher_Base.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\FireExtinguisher_Sprayer.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Gun.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\HandLift.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Lamp.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\LightSaber.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Menu_Color_Changer.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Menu_Container_Object_Colors.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Menu_Object_Spawner.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\ModelVillage_TeleportLocation.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\MoveBlock.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Openable_Door.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\PanelMenu\PanelMenuDemoFlyingSaucer.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\PanelMenu\PanelMenuDemoSphere.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\PanelMenu\PanelMenuUIGrid.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\PanelMenu\PanelMenuUISlider.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\RC_Car.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\RC_Car_Controller.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\RealGun.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\RealGun_SafetySwitch.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\RealGun_Slide.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Remote_Beam.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Remote_Beam_Controller.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\RendererOffOnDash.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\SceneChanger.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\SnapDropZoneGroup_Switcher.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Sphere_Spawner.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Sword.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\UI_Interactions.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\UI_Keyboard.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\UseRotate.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\VRTK_ControllerAppearance_Example.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\VRTK_ControllerEvents_ListenerExample.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\VRTK_ControllerInteract_ListenerExample.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\VRTK_ControllerPointerEvents_ListenerExample.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\VRTK_ControllerUIPointerEvents_ListenerExample.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\VRTK_RoomExtender_ControllerExample.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Whirlygig.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Zipline.cs" />
     <Compile Include="Assets\VRTK\Prefabs\Resources\Scripts\VRTK_ConsoleViewer.cs" />
     <Compile Include="Assets\VRTK\Prefabs\Resources\Scripts\VRTK_ControllerRigidbodyActivator.cs" />
     <Compile Include="Assets\VRTK\Prefabs\Resources\Scripts\VRTK_ControllerTooltips.cs" />
@@ -232,13 +232,17 @@
     <Compile Include="Assets\VRTK\Prefabs\Resources\Scripts\VRTK_FramesPerSecondViewer.cs" />
     <Compile Include="Assets\VRTK\Prefabs\Resources\Scripts\VRTK_ObjectTooltip.cs" />
     <Compile Include="Assets\VRTK\Prefabs\Resources\Scripts\VRTK_SnapDropZone.cs" />
+    <Compile Include="Assets\VRTK\SDK\Base\SDK_Base.cs" />
     <Compile Include="Assets\VRTK\SDK\Base\SDK_BaseBoundaries.cs" />
     <Compile Include="Assets\VRTK\SDK\Base\SDK_BaseController.cs" />
     <Compile Include="Assets\VRTK\SDK\Base\SDK_BaseHeadset.cs" />
     <Compile Include="Assets\VRTK\SDK\Base\SDK_BaseSystem.cs" />
+    <Compile Include="Assets\VRTK\SDK\Base\SDK_DescriptionAttribute.cs" />
+    <Compile Include="Assets\VRTK\SDK\Base\SDK_ScriptingDefineSymbolPredicateAttribute.cs" />
     <Compile Include="Assets\VRTK\SDK\Daydream\DaydreamReach.cs" />
     <Compile Include="Assets\VRTK\SDK\Daydream\SDK_DaydreamBoundaries.cs" />
     <Compile Include="Assets\VRTK\SDK\Daydream\SDK_DaydreamController.cs" />
+    <Compile Include="Assets\VRTK\SDK\Daydream\SDK_DaydreamDefines.cs" />
     <Compile Include="Assets\VRTK\SDK\Daydream\SDK_DaydreamHeadset.cs" />
     <Compile Include="Assets\VRTK\SDK\Daydream\SDK_DaydreamSystem.cs" />
     <Compile Include="Assets\VRTK\SDK\Fallback\SDK_FallbackBoundaries.cs" />
@@ -247,6 +251,7 @@
     <Compile Include="Assets\VRTK\SDK\Fallback\SDK_FallbackSystem.cs" />
     <Compile Include="Assets\VRTK\SDK\OculusVR\SDK_OculusVRBoundaries.cs" />
     <Compile Include="Assets\VRTK\SDK\OculusVR\SDK_OculusVRController.cs" />
+    <Compile Include="Assets\VRTK\SDK\OculusVR\SDK_OculusVRDefines.cs" />
     <Compile Include="Assets\VRTK\SDK\OculusVR\SDK_OculusVRHeadset.cs" />
     <Compile Include="Assets\VRTK\SDK\OculusVR\SDK_OculusVRSystem.cs" />
     <Compile Include="Assets\VRTK\SDK\Simulator\SDK_ControllerSim.cs" />
@@ -257,9 +262,15 @@
     <Compile Include="Assets\VRTK\SDK\Simulator\SDK_SimSystem.cs" />
     <Compile Include="Assets\VRTK\SDK\SteamVR\SDK_SteamVRBoundaries.cs" />
     <Compile Include="Assets\VRTK\SDK\SteamVR\SDK_SteamVRController.cs" />
+    <Compile Include="Assets\VRTK\SDK\SteamVR\SDK_SteamVRDefines.cs" />
     <Compile Include="Assets\VRTK\SDK\SteamVR\SDK_SteamVRHeadset.cs" />
     <Compile Include="Assets\VRTK\SDK\SteamVR\SDK_SteamVRSystem.cs" />
     <Compile Include="Assets\VRTK\SDK\VRTK_SDK_Bridge.cs" />
+    <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseVRBoundaries.cs" />
+    <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseVRController.cs" />
+    <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseVRDefines.cs" />
+    <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseVRHeadset.cs" />
+    <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseVRSystem.cs" />
     <Compile Include="Assets\VRTK\Scripts\Controls\2D\PanelMenu\PanelMenuController.cs" />
     <Compile Include="Assets\VRTK\Scripts\Controls\2D\PanelMenu\PanelMenuItemController.cs" />
     <Compile Include="Assets\VRTK\Scripts\Controls\2D\RadialMenu\RadialButtonIcon.cs" />
@@ -304,9 +315,11 @@
     <Compile Include="Assets\VRTK\Scripts\Interactions\VRTK_InteractUse.cs" />
     <Compile Include="Assets\VRTK\Scripts\Interactions\VRTK_InteractableObject.cs" />
     <Compile Include="Assets\VRTK\Scripts\Interactions\VRTK_ObjectAutoGrab.cs" />
+    <Compile Include="Assets\VRTK\Scripts\Internal\VRTK_CollisionTracker.cs" />
     <Compile Include="Assets\VRTK\Scripts\Internal\VRTK_ControllerTracker.cs" />
     <Compile Include="Assets\VRTK\Scripts\Internal\VRTK_CurveGenerator.cs" />
     <Compile Include="Assets\VRTK\Scripts\Internal\VRTK_EventSystem.cs" />
+    <Compile Include="Assets\VRTK\Scripts\Internal\VRTK_InstanceMethods.cs" />
     <Compile Include="Assets\VRTK\Scripts\Internal\VRTK_ObjectCache.cs" />
     <Compile Include="Assets\VRTK\Scripts\Internal\VRTK_PlayerObject.cs" />
     <Compile Include="Assets\VRTK\Scripts\Internal\VRTK_RoomExtender_PlayAreaGizmo.cs" />
@@ -378,6 +391,7 @@
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_AdaptiveQuality.cs" />
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_DeviceFinder.cs" />
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_PolicyList.cs" />
+    <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_SDKInfo.cs" />
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_SDKManager.cs" />
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_SharedMethods.cs" />
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_Simulator.cs" />

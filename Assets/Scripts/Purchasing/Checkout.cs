@@ -11,6 +11,12 @@ using System.Collections;
 using System;
 using System.IO;
 
+public class CustomerNumber{
+
+	public string customerId;
+
+}
+
 public class Checkout : MonoBehaviour {
 
 
@@ -19,15 +25,29 @@ public class Checkout : MonoBehaviour {
 
 	System.Guid myGUID = System.Guid.NewGuid();
 
+
+
 	public static string rxsRedPurchased;
 	public static string rxsBluePurchased;
 	public static string rxsGreenPurchased;
 	public static string rxsBlackPurchased;
 
+	CustomerNumber customerNumber = new CustomerNumber ();
+
+	public static string customerNumberDigit;
+
+
+
 	public void checkedOUT(){
 		StartCoroutine (checkoutCompleted ());
+
 	}
 
+	void start() {
+
+		StartCoroutine (checkoutCompleted ());
+
+	}
 
 	IEnumerator checkoutCompleted() {
 
@@ -41,8 +61,11 @@ public class Checkout : MonoBehaviour {
 	
 		FirebaseQueue firebaseQueue = new FirebaseQueue();
 
+		customerNumber.customerId = System.Guid.NewGuid ().ToString ();
+		customerNumberDigit = JsonUtility.ToJson (customerNumber);
+
 		//firebaseQueue.AddQueuePush(firebase.Child("order/customer", true), secondDetails + newDetails, true);
-		firebaseQueue.AddQueuePush(firebase.Child("customers/" + myGUID, true), "{asdf}", true);
+		firebaseQueue.AddQueuePush(firebase.Child("customers/" + myGUID + "/CustomerId", true), customerNumberDigit, true);
 		firebaseQueue.AddQueuePush(firebase.Child("customers/" + myGUID + "/RedShoe", true), rxsRedPurchased, true);
 		firebaseQueue.AddQueuePush(firebase.Child("customers/" + myGUID + "/BlueShoe", true), rxsBluePurchased, true);
 		firebaseQueue.AddQueuePush(firebase.Child("customers/" + myGUID + "/GreenShoe", true), rxsGreenPurchased, true);
