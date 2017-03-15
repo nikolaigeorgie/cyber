@@ -7,7 +7,7 @@
         public bool followPosition;
         public bool followRotation;
         public Transform target;
-
+		/*
         private void Update()
         {
             if (target != null)
@@ -27,5 +27,6 @@
                 Debug.LogError("No follow target defined!");
             }
         }
+        */
     }
 }
